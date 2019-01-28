@@ -24,12 +24,15 @@ public class ToDoListDemo {
                 // display items by state
             } else if (userInput.equals("3")){
                 // add item
-                ToDoListItem itemToAdd = toDoItemCreator.createNewItem();
-                toDoList.addItem(itemToAdd);
+                ToDoListItem listItemToAdd = toDoItemCreator.createNewItem();
+                toDoList.addItem(listItemToAdd);
             } else if (userInput.equals("4")){
                 // edit existing item
             } else if (userInput.equals("5")){
                 // delete an item
+                System.out.println("What is the description of the task you would like to delete?");
+                String listItemDescription = scanner.nextLine();
+                toDoList.deleteItemByDescription(listItemDescription);
             } else if (userInput.equals("6")){
                 //exit program
                 shouldContinue = false;

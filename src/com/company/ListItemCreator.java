@@ -8,11 +8,20 @@ public class ListItemCreator {
     public ToDoListItem createNewItem(){
         System.out.println("Enter task description");
         String description = scanner.nextLine();
+        boolean inValidStateGiven = true;
+        String stateInput;
+        do {
+            System.out.println("Enter state [to do], [in progress], [complete]");
+            stateInput = scanner.nextLine();
 
-        System.out.println("Enter state [to do], [in progress], [complete]");
-        String state = scanner.nextLine();
+            if(stateInput.equals("to do") || stateInput.equals("in progress") || stateInput.equals("complete")){
+                inValidStateGiven = false;
+            } else {
+                System.out.println("Please enter a valid state from the option below");
+            }
 
-        return new ToDoListItem(description, state);
+        } while(inValidStateGiven);
+        return new ToDoListItem(description, stateInput);
     }
 
 }

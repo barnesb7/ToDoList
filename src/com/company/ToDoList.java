@@ -25,6 +25,16 @@ public class ToDoList {
         }
     }
 
+    public void deleteItemByDescription(String description){
+        for (int i = 0; i < toDoList.length; i++){
+            if(toDoList[i] != null && toDoList[i].getDescription().equals(description)){
+                toDoList[i] = null;
+                System.out.println("All list items with the description of - " + description + " - have been successfully deleted.");
+                break;
+            } else if (i == toDoList.length -1){
+                System.out.println("There were no items found with a description of: " + description);
+            }
+        }
 
-
+    }
 }
