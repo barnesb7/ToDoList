@@ -11,6 +11,10 @@ public class ToDoListItem {
         this.state = state;
     }
 
+    public void print(){
+        System.out.println("<-- " + description + " : " + state + " -->");
+    }
+
     public String getDescription() {
         return description;
     }

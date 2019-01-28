@@ -19,7 +19,7 @@ public class ToDoListDemo {
 
             if(userInput.equals("1")){
                 // display all items
-
+                toDoList.displayExistingItems();
             } else if (userInput.equals("2")){
                 // display items by state
             } else if (userInput.equals("3")){
