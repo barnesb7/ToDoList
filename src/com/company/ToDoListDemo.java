@@ -22,6 +22,22 @@ public class ToDoListDemo {
                 toDoList.displayExistingItems();
             } else if (userInput.equals("2")){
                 // display items by state
+                boolean invalidStateGiven = true;
+                String stateInput;
+                do {
+                    System.out.println("How would you like to sort? [to do], [in progress], [complete]");
+                    stateInput = scanner.nextLine();
+
+                    if(stateInput.equals("to do") || stateInput.equals("in progress") || stateInput.equals("complete")){
+                        invalidStateGiven = false;
+                    } else {
+                        System.out.println("Please input a valid state from the choices below");
+                    }
+
+                    }while(invalidStateGiven);
+
+                toDoList.displayItemsByState(stateInput);
+
             } else if (userInput.equals("3")){
                 // add item
                 ToDoListItem listItemToAdd = toDoItemCreator.createNewItem();

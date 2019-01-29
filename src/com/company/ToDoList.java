@@ -25,6 +25,19 @@ public class ToDoList {
         }
     }
 
+    public void displayItemsByState(String stateInput){
+        for (int i = 0; i < toDoList.length; i++){
+            if(toDoList[i] != null && toDoList[i].getState().equals(stateInput)){
+                toDoList[i].print();
+            } else if (i == toDoList.length -1){
+                System.out.println("There were no items found with a state of: " + stateInput);
+            }
+        }
+
+    }
+
+
+
     public void deleteItemByDescription(String description){
         for (int i = 0; i < toDoList.length; i++){
             if(toDoList[i] != null && toDoList[i].getDescription().equals(description)){

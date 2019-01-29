@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74606117-980d-43bd-b7b6-e565a76324c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/ListItemCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ListItemCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ToDoList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ToDoListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ToDoListDemo.java" afterDir="false" />
     </list>
@@ -15,19 +14,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/ToDoListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="216">
+              <caret line="33" column="93" selection-start-line="33" selection-start-column="93" selection-end-line="33" selection-end-column="93" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ListItemCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
+            <state relative-caret-position="210">
               <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
@@ -57,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ToDoList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="268">
+              <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -89,9 +88,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/UserMenu.java" />
         <option value="$PROJECT_DIR$/src/com/company/ToDoListItem.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ListItemCreator.java" />
         <option value="$PROJECT_DIR$/src/com/company/ToDoList.java" />
         <option value="$PROJECT_DIR$/src/com/company/ToDoListDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ListItemCreator.java" />
       </list>
     </option>
   </component>
@@ -137,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548718986324" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548719922285" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -179,12 +178,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548709215971</updated>
       <workItem from="1548709220483" duration="53000" />
-      <workItem from="1548709277741" duration="4985000" />
+      <workItem from="1548709277741" duration="5900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5038000" />
+    <option name="totallyTimeSpent" value="5953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
@@ -197,10 +196,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Messages" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,13 +243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ToDoListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/UserMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -258,17 +250,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ToDoList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ListItemCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ListItemCreator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ToDoList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="268">
+          <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ToDoListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="33" column="93" selection-start-line="33" selection-start-column="93" selection-end-line="33" selection-end-column="93" />
         </state>
       </provider>
     </entry>
