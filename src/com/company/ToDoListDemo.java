@@ -9,6 +9,7 @@ public class ToDoListDemo {
         ToDoList toDoList = new ToDoList();
         ListItemCreator toDoItemCreator = new ListItemCreator();
         UserMenu userMenu = new UserMenu();
+        EditListItemHandler editListItemHandler = new EditListItemHandler();
 
         boolean shouldContinue = true;
         String userInput;
@@ -44,6 +45,7 @@ public class ToDoListDemo {
                 toDoList.addItem(listItemToAdd);
             } else if (userInput.equals("4")){
                 // edit existing item
+                editListItemHandler.handleEdit();
             } else if (userInput.equals("5")){
                 // delete an item
                 System.out.println("What is the description of the task you would like to delete?");
