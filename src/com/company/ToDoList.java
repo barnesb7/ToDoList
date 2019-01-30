@@ -24,7 +24,7 @@ public class ToDoList {
 
     public void displayItemsByState(String stateInput){
         for (int i = 0; i < toDoList.size(); i++){
-            if(toDoList.get(i) != null && toDoList.get(i).getState().equals(stateInput)){
+            if(toDoList.get(i).getState().equals(stateInput)){
                 toDoList.get(i).print();
             } else if (i == toDoList.size() -1){
                 System.out.println("There were no items found with a state of: " + stateInput);
