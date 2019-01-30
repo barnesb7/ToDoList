@@ -14,15 +14,22 @@ public class ToDoListDemo {
         boolean shouldContinue = true;
         String userInput;
 
+
+        final String displayAllItems = "1";
+        final String displayItemsByState = "2";
+        final String addToDoListItem = "3";
+        final String editExistingItem = "4";
+        final String deleteItem = "5";
+        final String exitProgram = "6";
+
         do{
             userMenu.displayMenu();
             userInput = scanner.nextLine();
 
-            if(userInput.equals("1")){
-                // display all items
+            if(userInput.equals(displayAllItems)){
                 toDoList.displayExistingItems();
-            } else if (userInput.equals("2")){
-                // display items by state
+
+            } else if (userInput.equals(displayItemsByState)){
                 boolean invalidStateGiven = true;
                 String stateInput;
                 do {
@@ -39,22 +46,23 @@ public class ToDoListDemo {
 
                 toDoList.displayItemsByState(stateInput);
 
-            } else if (userInput.equals("3")){
+            } else if (userInput.equals(addToDoListItem)){
                 // add item
                 ToDoListItem listItemToAdd = toDoItemCreator.createNewItem();
                 toDoList.addItem(listItemToAdd);
-            } else if (userInput.equals("4")){
-                // edit existing item
+
+            } else if (userInput.equals(editExistingItem)){
                 editListItemHandler.handleEdit();
-            } else if (userInput.equals("5")){
-                // delete an item
+
+            } else if (userInput.equals(deleteItem)){
                 System.out.println("What is the description of the task you would like to delete?");
                 String listItemDescription = scanner.nextLine();
                 toDoList.deleteItemByDescription(listItemDescription);
-            } else if (userInput.equals("6")){
-                //exit program
+
+            } else if (userInput.equals(exitProgram)){
                 shouldContinue = false;
                 System.out.println("Thank you! Goodbye");
+
             } else {
                 System.out.println("Please enter one of the below options by number");
             }
