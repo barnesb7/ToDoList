@@ -13,6 +13,9 @@ public class EditListItemHandler {
 
         boolean descriptionFound = checkIfDescriptionWasFound(listItemDescription);
 
+        final String editDescription = "1";
+        final String editState = "2";
+
         if(descriptionFound){
 
             String userChoice;
@@ -22,7 +25,7 @@ public class EditListItemHandler {
                System.out.println("The list item was found. \n Would you like to edit the [1] - description or [2] - state ");
                userChoice = scanner.nextLine();
 
-               if(userChoice.equals("1") || userChoice.equals("2")){
+               if(userChoice.equals(editDescription) || userChoice.equals(editState)){
                    invalidOptionChosen = false;
                } else {
                    System.out.println("Please choose a valid option from below");
@@ -30,12 +33,12 @@ public class EditListItemHandler {
 
            }while(invalidOptionChosen);
 
-            if(userChoice.equals("1")){
+            if(userChoice.equals(editDescription)){
                 System.out.println("What should the updated description be?");
                 String updatedDescription = scanner.nextLine();
                 ToDoList.updateDescriptionOfListItem(listItemDescription, updatedDescription);
 
-            } else if (userChoice.equals("2")){
+            } else if (userChoice.equals(editState)){
                 System.out.println("What should the updated status be?");
                 String updatedState = scanner.nextLine();
 

@@ -14,7 +14,6 @@ public class ToDoListDemo {
         boolean shouldContinue = true;
         String userInput;
 
-
         final String displayAllItems = "1";
         final String displayItemsByState = "2";
         final String addToDoListItem = "3";

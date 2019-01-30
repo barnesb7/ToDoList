@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74606117-980d-43bd-b7b6-e565a76324c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/company/EditListItemHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/EditListItemHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ToDoListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ToDoListDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ToDoListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/EditListItemHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+            <state relative-caret-position="690">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -95,9 +96,9 @@
         <option value="$PROJECT_DIR$/src/com/company/UserMenu.java" />
         <option value="$PROJECT_DIR$/src/com/company/ToDoListItem.java" />
         <option value="$PROJECT_DIR$/src/com/company/ListItemCreator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/EditListItemHandler.java" />
         <option value="$PROJECT_DIR$/src/com/company/ToDoList.java" />
         <option value="$PROJECT_DIR$/src/com/company/ToDoListDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/company/EditListItemHandler.java" />
       </list>
     </option>
   </component>
@@ -143,7 +144,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548865981637" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548866229442" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,12 +187,12 @@
       <updated>1548709215971</updated>
       <workItem from="1548709220483" duration="53000" />
       <workItem from="1548709277741" duration="8864000" />
-      <workItem from="1548862510563" duration="3431000" />
+      <workItem from="1548862510563" duration="3679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12348000" />
+    <option name="totallyTimeSpent" value="12596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="6" />
@@ -270,17 +271,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/EditListItemHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ToDoListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ToDoListDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/EditListItemHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="690">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
