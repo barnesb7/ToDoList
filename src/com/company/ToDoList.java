@@ -13,11 +13,12 @@ public class ToDoList {
     }
 
     public void displayExistingItems(){
-        for (int i = 0; i < toDoList.size(); i++){
-                toDoList.get(i).print();
+        if(toDoList.size() == 0){
+            System.out.println("There are no items in the list. Free day!");
 
-                if (i == toDoList.size() -1){
-                System.out.println("There are no items in the list. Free day!");
+        } else {
+            for (int i = 0; i < toDoList.size(); i++){
+                toDoList.get(i).print();
             }
         }
     }
@@ -38,7 +39,7 @@ public class ToDoList {
     public void deleteItemByDescription(String description){
         for (int i = 0; i < toDoList.size(); i++){
             if(toDoList.get(i) != null && toDoList.get(i).getDescription().equals(description)){
-                toDoList.set(i, null);
+                toDoList.remove(i);
                 System.out.println("All list items with the description of - " + description + " - have been successfully deleted.");
                 break;
             } else if (i == toDoList.size() -1){
