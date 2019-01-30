@@ -11,8 +11,6 @@ public class EditListItemHandler {
         System.out.println("What is the description of the item you would like to edit?");
         String listItemDescription = scanner.nextLine();
 
-        System.out.println("Got HERE");
-
         boolean descriptionFound = checkIfDescriptionWasFound(listItemDescription);
 
         if(descriptionFound){
@@ -57,11 +55,10 @@ public class EditListItemHandler {
         boolean descriptionFound = false;
 
         for (int i = 0; i < ToDoList.toDoList.size(); i++) {
-            if (ToDoList.toDoList.get(i) != null && ToDoList.toDoList.get(i).getDescription().equals(description)) {
+            if (ToDoList.toDoList.get(i).getDescription().equals(description)) {
                 descriptionFound = true;
                 break;
             }
-
         }
         return descriptionFound;
     }

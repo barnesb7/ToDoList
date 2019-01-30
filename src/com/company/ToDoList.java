@@ -50,7 +50,7 @@ public class ToDoList {
 
     public static void updateDescriptionOfListItem(String descriptionToUpdate, String newDescription){
         for (int i = 0; i < toDoList.size(); i++){
-            if(toDoList.get(i) != null && toDoList.get(i).getDescription().equals(descriptionToUpdate)){
+            if(toDoList.get(i).getDescription().equals(descriptionToUpdate)){
                 toDoList.get(i).setDescription(newDescription);
                 System.out.println("All list items with the description of - " + descriptionToUpdate +
                         " - have been successfully updated with a new description of: " + newDescription);
@@ -59,8 +59,6 @@ public class ToDoList {
                 System.out.println("There were no items found with a description of: " + descriptionToUpdate);
             }
         }
-
-
     }
 
 
