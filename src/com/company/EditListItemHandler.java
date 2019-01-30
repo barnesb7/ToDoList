@@ -56,8 +56,8 @@ public class EditListItemHandler {
 
         boolean descriptionFound = false;
 
-        for (int i = 0; i < ToDoList.toDoList.length; i++) {
-            if (ToDoList.toDoList[i] != null && ToDoList.toDoList[i].getDescription().equals(description)) {
+        for (int i = 0; i < ToDoList.toDoList.size(); i++) {
+            if (ToDoList.toDoList.get(i) != null && ToDoList.toDoList.get(i).getDescription().equals(description)) {
                 descriptionFound = true;
                 break;
             }
